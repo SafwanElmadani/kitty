@@ -20,6 +20,6 @@ background_opacity 0.95
 
 
 # BEGIN_KITTY_THEME
-# Catppuccin-Latte
+# Alien Blood
 include current-theme.conf
 # END_KITTY_THEME
