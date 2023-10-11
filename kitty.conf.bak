@@ -2,10 +2,10 @@ allow_remote_control yes
 listen_on unix:/tmp/mykitty
 
 
-font_family      JetBrainsMono Nerd Font
-bold_font        auto
-italic_font      auto
-bold_italic_font auto
+font_family      JetBrainsMono NF SemiBold
+bold_font        JetBrainsMono NF Bold
+italic_font      JetBrainsMono NF SemiBold Italic
+bold_italic_font JetBrainsMono NF Bold Italic
 
 font_size 10.6
 
@@ -15,11 +15,11 @@ cursor_shape block
 cursor_blink_interval -1
 cursor_stop_blinking_after 0
 
-background_opacity 0.95
+background_opacity 0.99
 "placement_strategy top-left
 
 
 # BEGIN_KITTY_THEME
-# Alien Blood
+# Catppuccin-Latte
 include current-theme.conf
 # END_KITTY_THEME
