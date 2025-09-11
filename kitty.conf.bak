@@ -19,9 +19,16 @@ cursor_stop_blinking_after 0
 background_opacity 0.95
 "placement_strategy top-left
 
+# This is the default modifier for most key shortcuts
+kitty_mod ctrl+shift
+
+map kitty_mod+/      launch --location=hsplit --allow-remote-control kitty +kitten search.py @active-kitty-window-id
+map ctrl+f launch --type=overlay --stdin-source=@screen_scrollback fzf --no-sort --no-mouse --exact -i --tac
+
+
 
 # BEGIN_KITTY_THEME
-# Catppuccin-Mocha
+# Gruvbox Dark Hard
 include current-theme.conf
 # END_KITTY_THEME
 cursor_shape block
